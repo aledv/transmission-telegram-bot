@@ -1,0 +1,7 @@
+services:
+  transmission-telegram-bot:
+    image: ghcr.io/aledv/transmission-telegram-bot:latest   # pin a tag (or tag@sha256) in production
+    container_name: transmission-telegram-bot
+    restart: unless-stopped
+    volumes:
+      - ./data:/config   # config.json (from config.sample.json) and user-notification.json

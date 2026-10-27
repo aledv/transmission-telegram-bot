@@ -1,0 +1,17 @@
+{
+  "bot": {
+    "token": "YOUR_TELEGRAM_BOT_TOKEN",
+    "users": [
+      123456789
+    ],
+    "version": "0.1.0"
+  },
+  "transmission": {
+    "address": "transmission",
+    "port": 9091,
+    "credentials": {
+      "username": "",
+      "password": ""
+    }
+  }
+}

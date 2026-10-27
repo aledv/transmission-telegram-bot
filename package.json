@@ -1,0 +1,33 @@
+{
+  "name": "transmission-telegram-bot",
+  "version": "0.1.0",
+  "description": "Telegram bot to control a Transmission BitTorrent client",
+  "main": "bot.js",
+  "scripts": {
+    "bot": "node bot.js",
+    "test": "node --test tests/",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aledv/transmission-telegram-bot.git"
+  },
+  "author": "aledv (maintained fork of the original by Raffaele Calzà)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aledv/transmission-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/aledv/transmission-telegram-bot#readme",
+  "dependencies": {
+    "date-and-time": "^0.3.0",
+    "handlebars": "^4.0.5",
+    "node-telegram-bot-api": "^0.23.3",
+    "prettysize": "0.0.3",
+    "transmission": "^0.4.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.5",
+    "globals": "^17.13.0"
+  }
+}
